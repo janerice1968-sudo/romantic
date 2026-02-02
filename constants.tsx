@@ -8,7 +8,7 @@ export const STREAMERS: Streamer[] = [
     name: 'Isabella',
     age: 24,
     location: 'Miami, FL',
-    imageUrl: 'https://picsum.photos/id/64/800/1200',
+    imageUrl: 'https://i.ibb.co/WWp05kN4/1092a951-697c-4cfd-a12d-584a344ed350.png',
     isLive: true,
     viewers: 1240,
     category: 'Sensual Chat'
@@ -18,7 +18,7 @@ export const STREAMERS: Streamer[] = [
     name: 'Julian',
     age: 28,
     location: 'Los Angeles, CA',
-    imageUrl: 'https://picsum.photos/id/65/800/1200',
+    imageUrl: 'https://i.ibb.co/yB7zPXZ5/469a2c58-a9ea-41b5-830b-3ca1878fc575.png',
     isLive: true,
     viewers: 850,
     category: 'Private Shows'
@@ -28,7 +28,7 @@ export const STREAMERS: Streamer[] = [
     name: 'Sophia',
     age: 22,
     location: 'New York, NY',
-    imageUrl: 'https://picsum.photos/id/129/800/1200',
+    imageUrl: 'https://i.ibb.co/4Zw6L9F7/460ab5a4-90d9-443a-88a5-ce4741222b22.png',
     isLive: false,
     viewers: 0,
     category: 'Dating'
@@ -38,7 +38,7 @@ export const STREAMERS: Streamer[] = [
     name: 'Marcus',
     age: 31,
     location: 'Austin, TX',
-    imageUrl: 'https://picsum.photos/id/177/800/1200',
+    imageUrl: 'https://i.ibb.co/gK7FhPk/455bcd06-ac64-4dfb-b4e5-228a2dba4fd8.png',
     isLive: true,
     viewers: 2100,
     category: 'Group Live'

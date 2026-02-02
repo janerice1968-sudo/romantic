@@ -19,20 +19,20 @@ const Footer: React.FC = () => {
           <div>
             <h5 className="text-[#1C1C1C] text-xs font-bold uppercase tracking-[0.2em] mb-6">Explore</h5>
             <ul className="space-y-4 text-sm text-[#1C1C1C]/50">
-              <li><a href="#" className="hover:text-rose-500 transition-colors">Live Presence</a></li>
-              <li><a href="#" className="hover:text-rose-500 transition-colors">Deep Connections</a></li>
-              <li><a href="#" className="hover:text-rose-500 transition-colors">Whisper Chat</a></li>
-              <li><a href="#" className="hover:text-rose-500 transition-colors">Curated Souls</a></li>
+              <li><a href="https://www.baidu.com" className="hover:text-rose-500 transition-colors">Live Presence</a></li>
+              <li><a href="https://www.baidu.com" className="hover:text-rose-500 transition-colors">Deep Connections</a></li>
+              <li><a href="https://www.baidu.com" className="hover:text-rose-500 transition-colors">Whisper Chat</a></li>
+              <li><a href="https://www.baidu.com" className="hover:text-rose-500 transition-colors">Curated Souls</a></li>
             </ul>
           </div>
           
           <div>
             <h5 className="text-[#1C1C1C] text-xs font-bold uppercase tracking-[0.2em] mb-6">Presence</h5>
             <ul className="space-y-4 text-sm text-[#1C1C1C]/50">
-              <li><a href="#" className="hover:text-rose-500 transition-colors">How it Works</a></li>
-              <li><a href="#" className="hover:text-rose-500 transition-colors">Your Sanctuary</a></li>
-              <li><a href="#" className="hover:text-rose-500 transition-colors">Private Terms</a></li>
-              <li><a href="#" className="hover:text-rose-500 transition-colors">Concierge</a></li>
+              <li><a href="https://www.baidu.com" className="hover:text-rose-500 transition-colors">How it Works</a></li>
+              <li><a href="https://www.baidu.com" className="hover:text-rose-500 transition-colors">Your Sanctuary</a></li>
+              <li><a href="https://www.baidu.com" className="hover:text-rose-500 transition-colors">Private Terms</a></li>
+              <li><a href="https://www.baidu.com" className="hover:text-rose-500 transition-colors">Concierge</a></li>
             </ul>
           </div>
 
@@ -45,9 +45,9 @@ const Footer: React.FC = () => {
                 placeholder="Where shall we find you?" 
                 className="w-full bg-white border border-black/10 rounded-full px-5 py-3 text-xs focus:outline-none focus:border-rose-500 text-[#1C1C1C]"
               />
-              <button className="absolute right-1 top-1 accent-gradient p-2 px-4 rounded-full text-[10px] font-bold uppercase tracking-widest text-white">
+              <a href="https://www.baidu.com" className="absolute right-1 top-1 accent-gradient p-2 px-4 rounded-full text-[10px] font-bold uppercase tracking-widest text-white">
                 Invitations
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -55,9 +55,9 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between pt-10 border-t border-black/5 text-[10px] uppercase tracking-widest text-[#1C1C1C]/30">
           <p>© 2024 Romantic Global Entertainment. Adults Only.</p>
           <div className="flex gap-8 mt-4 md:mt-0">
-            <a href="#" className="hover:text-[#1C1C1C] transition-colors">Ethics</a>
-            <a href="#" className="hover:text-[#1C1C1C] transition-colors">Cookies</a>
-            <a href="#" className="hover:text-[#1C1C1C] transition-colors">Access</a>
+            <a href="https://www.baidu.com" className="hover:text-[#1C1C1C] transition-colors">Ethics</a>
+            <a href="https://www.baidu.com" className="hover:text-[#1C1C1C] transition-colors">Cookies</a>
+            <a href="https://www.baidu.com" className="hover:text-[#1C1C1C] transition-colors">Access</a>
           </div>
         </div>
       </div>

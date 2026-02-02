@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           {['Live', 'Connect', 'Intimate', 'Safety'].map((item) => (
             <a 
               key={item} 
-              href={`#${item.toLowerCase()}`}
+              href="https://www.baidu.com"
               className="text-sm font-medium text-[#1C1C1C]/60 hover:text-rose-600 transition-colors uppercase tracking-widest"
             >
               {item}
@@ -33,12 +33,12 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="text-sm font-medium text-[#1C1C1C]/80 hover:text-rose-600 px-4 py-2 transition-all">
+          <a href="https://www.baidu.com" className="text-sm font-medium text-[#1C1C1C]/80 hover:text-rose-600 px-4 py-2 transition-all">
             Enter
-          </button>
-          <button className="accent-gradient px-6 py-2.5 rounded-full text-sm font-semibold text-white shadow-lg hover:shadow-rose-500/40 hover:scale-105 transition-all active:scale-95">
+          </a>
+          <a href="https://www.baidu.com" className="accent-gradient px-6 py-2.5 rounded-full text-sm font-semibold text-white shadow-lg hover:shadow-rose-500/40 hover:scale-105 transition-all active:scale-95 text-center">
             Unlock the Secret
-          </button>
+          </a>
         </div>
       </div>
     </nav>
