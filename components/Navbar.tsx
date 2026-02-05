@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const trackingUrl = "https://t.acrsmartcam.com/403638/7335?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN";
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
@@ -24,7 +25,7 @@ const Navbar: React.FC = () => {
           {['Live', 'Connect', 'Intimate', 'Safety'].map((item) => (
             <a 
               key={item} 
-              href="https://www.baidu.com"
+              href={trackingUrl}
               className="text-sm font-medium text-[#1C1C1C]/60 hover:text-rose-600 transition-colors uppercase tracking-widest"
             >
               {item}
@@ -33,10 +34,10 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="https://www.baidu.com" className="text-sm font-medium text-[#1C1C1C]/80 hover:text-rose-600 px-4 py-2 transition-all">
+          <a href={trackingUrl} className="text-sm font-medium text-[#1C1C1C]/80 hover:text-rose-600 px-4 py-2 transition-all">
             Enter
           </a>
-          <a href="https://www.baidu.com" className="accent-gradient px-6 py-2.5 rounded-full text-sm font-semibold text-white shadow-lg hover:shadow-rose-500/40 hover:scale-105 transition-all active:scale-95 text-center">
+          <a href={trackingUrl} className="accent-gradient px-6 py-2.5 rounded-full text-sm font-semibold text-white shadow-lg hover:shadow-rose-500/40 hover:scale-105 transition-all active:scale-95 text-center">
             Unlock the Secret
           </a>
         </div>

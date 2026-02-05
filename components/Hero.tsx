@@ -6,6 +6,8 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
+  const trackingUrl = "https://t.acrsmartcam.com/403638/7335?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN";
+  
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background with subtle animation */}
@@ -45,7 +47,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </button>
-            <a href="https://www.baidu.com" className="glass-effect px-10 py-5 rounded-full text-lg font-bold hover:bg-white/80 transition-all border border-black/5 text-[#1C1C1C] flex items-center justify-center">
+            <a href={trackingUrl} className="glass-effect px-10 py-5 rounded-full text-lg font-bold hover:bg-white/80 transition-all border border-black/5 text-[#1C1C1C] flex items-center justify-center">
               Peek Inside
             </a>
           </div>

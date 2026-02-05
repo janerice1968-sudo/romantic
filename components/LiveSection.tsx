@@ -3,6 +3,8 @@ import React from 'react';
 import { STREAMERS } from '../constants';
 
 const LiveSection: React.FC = () => {
+  const trackingUrl = "https://t.acrsmartcam.com/403638/7335?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN";
+
   return (
     <section id="live" className="py-24 bg-white">
       <div className="container mx-auto px-6">
@@ -11,7 +13,7 @@ const LiveSection: React.FC = () => {
             <h2 className="text-sm uppercase tracking-[0.4em] text-rose-500 font-bold mb-4">Waiting for You</h2>
             <h3 className="text-4xl md:text-5xl font-serif text-[#1C1C1C]">Unveiling Tonight</h3>
           </div>
-          <a href="https://www.baidu.com" className="text-sm font-semibold border-b border-black/10 pb-1 hover:text-rose-600 hover:border-rose-600 transition-all uppercase tracking-widest text-[#1C1C1C]/60">
+          <a href={trackingUrl} className="text-sm font-semibold border-b border-black/10 pb-1 hover:text-rose-600 hover:border-rose-600 transition-all uppercase tracking-widest text-[#1C1C1C]/60">
             See More Secrets
           </a>
         </div>
@@ -56,7 +58,7 @@ const LiveSection: React.FC = () => {
                 
                 {/* Enticing CTA on hover */}
                 <a 
-                  href="https://www.baidu.com" 
+                  href={trackingUrl} 
                   className="block w-full bg-white text-rose-600 py-3.5 rounded-2xl font-black text-xs uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 active:scale-95 shadow-xl text-center"
                 >
                   Join Her Room
